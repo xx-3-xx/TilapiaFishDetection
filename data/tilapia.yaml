@@ -1,0 +1,12 @@
+# Path to training images relative to the yolov7 directory
+train: ./datasets/tilapia_fish/images/train
+# Path to validation images relative to the yolov7 directory
+val: ./datasets/tilapia_fish/images/val
+# Path to test images relative to the yolov7 directory (optional, but good for final eval)
+test: ./datasets/tilapia_fish/images/test
+
+# Number of classes
+nc: 1
+
+# Class names - Ensure this matches the class name you defined in Roboflow
+names: ['Tilapia']
